@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel",
+    "start:open": "parcel --open",
     "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +24,9 @@
     "@parcel/transformer-sass": "^2.3.2",
     "parcel": "^2.3.2",
     "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "reset-css": "^5.0.1",
+    "scss-reset": "^1.2.2"
   }
 }

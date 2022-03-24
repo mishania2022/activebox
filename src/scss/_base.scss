@@ -1,0 +1,40 @@
+body{
+    font-size: $base-font-size;
+    font-family: Raleway,sans-serif;
+}
+
+h1{  
+  font-size: 64px;  
+  font-weight: 900;
+  line-height: 75px;
+}
+
+h2{
+  font-size: 36px;  
+  font-weight: 700;
+  line-height: 42px;
+}
+
+h3{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+h4{
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;    
+}
+
+h5{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+h6{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+}
