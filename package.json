@@ -2,8 +2,7 @@
   "name": "activebox",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.html",
-  "main": "index.js",
+  "source": "src/index.html",  
   "scripts": {
     "start": "parcel",
     "start:open": "parcel --open",
