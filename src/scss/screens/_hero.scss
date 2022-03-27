@@ -32,14 +32,14 @@
 
     @include tablet {
       margin-bottom: 61.86px;
-      font-size: 48px;
-      line-height: 56px;
+      font-size: rem(48px);
+      line-height: rem(56px);
     }
 
     @include mobile {
       margin-bottom: 32.71px;
-      font-size: 36px;
-      line-height: 42px;
+      font-size: rem(36px);
+      line-height: rem(42px);
     }
   }
 
@@ -53,25 +53,20 @@
 
     @include tablet {
       margin-bottom: 89.14px;
-      font-size: 18px;
-      line-height: 21px;
+      font-size: rem(18px);
+      line-height: rem(21px);
     }
 
     @include mobile {
       margin-bottom: 49.29px;
-      font-size: 14px;
-      line-height: 16px;
+      font-size: rem(14px);
+      line-height: rem(16px);
     }
   }
 
-  &__button{
-    display: block;
+  &__button{    
     margin: 0 auto;    
-    height: 77.57575988769531px;
-    width: 369px;
-    background: #FF4343;
-    color: white;
-
+    
     @include tablet {
       height: 80px;
       left: 355px;
