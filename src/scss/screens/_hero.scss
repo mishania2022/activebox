@@ -1,0 +1,81 @@
+.hero {  
+  background: linear-gradient(rgb(255, 255, 255) 0%, rgba(37, 43, 73, 0.8) 0%), url(/src/images/bg-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1510px;  
+  margin: 0 auto; 
+  
+
+  @include tablet {
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgba(37, 43, 73, 0.8) 0%), url(/src/images/bg-hero-tablet.png);
+    background-size: cover;
+  }
+ 
+  &__container{    
+    padding: 230px 0 120px;
+
+    @include tablet {
+      padding: 257px 0 126px;
+    }
+
+    @include mobile {
+      padding: 106px 0 52px;
+    }
+  }
+
+  &__title{
+    margin-bottom: 31.43px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+
+    @include tablet {
+      margin-bottom: 61.86px;
+      font-size: rem(48px);
+      line-height: rem(56px);
+    }
+
+    @include mobile {
+      margin-bottom: 32.71px;
+      font-size: rem(36px);
+      line-height: rem(42px);
+    }
+  }
+
+  &__content{
+    margin-bottom: 79.59px;
+    font-weight: 400;    
+    display: flex;
+    align-items: center;
+    text-align: center;    
+    color: #FFFFFF;
+
+    @include tablet {
+      margin-bottom: 89.14px;
+      font-size: rem(18px);
+      line-height: rem(21px);
+    }
+
+    @include mobile {
+      margin-bottom: 49.29px;
+      font-size: rem(14px);
+      line-height: rem(16px);
+    }
+  }
+
+  &__button{    
+    margin: 0 auto;    
+    
+    @include tablet {
+      height: 80px;
+      left: 355px;
+    }
+
+    @include mobile {
+      width: 280px;
+      height: 60px;
+    }
+
+  }
+}
