@@ -2,7 +2,7 @@
   "name": "activebox",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.html",  
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "start:open": "parcel --open",
@@ -20,12 +20,13 @@
   },
   "homepage": "https://github.com/mishania2022/activebox#readme",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.3.2",
+    "@parcel/transformer-sass": "^2.4.0",
     "parcel": "^2.3.2",
     "sass": "^1.49.9"
   },
   "dependencies": {
     "reset-css": "^5.0.1",
     "scss-reset": "^1.2.2"
-  }
+  },
+  "main": "index.js"
 }
