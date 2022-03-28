@@ -5,6 +5,12 @@ body{
 .container{
   max-width: 1170px;
   margin: 0 auto;
+
+  @include tablet {
+    max-width: 984px;
+  }
+
+  
 }
 
 h1{  

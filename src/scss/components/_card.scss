@@ -1,0 +1,80 @@
+.card{
+  width: 370px;
+  height: 305.43px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+
+  &__heading{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+
+    @include tablet {
+      font-size: rem(18px);
+      line-height: rem(21px);
+    }
+
+  }
+
+  &__content{
+    text-align: center;
+
+    @include tablet {
+      font-size: rem(14px);
+      line-height: rem(16px);
+    }
+
+  }
+
+  &__image{
+    width: 75.68px;
+    height: 75.7px;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 50px;
+
+    @include tablet {
+      height: 53.25px;
+      width: 54.01px;
+      margin-bottom: 47px;
+    }
+
+    @include mobile {
+      height: 47.8px;
+      width: 47.1px;
+      margin-bottom: 36px;
+    }
+  }     
+  
+  &__image_pen{
+      background-image: url(/src/images/pen.svg);
+      background-repeat: no-repeat;
+  }
+
+  &__image_desktop{
+    background-image: url(/src/images/desktop.svg);
+    background-repeat: no-repeat;
+  }
+
+  &__image_lamp{
+    background-image: url(/src/images/lamp.svg);
+    background-repeat: no-repeat;
+  }
+
+  &__image_star{
+    background-image: url(/src/images/star.svg);
+    background-repeat: no-repeat;
+ }
+
+  &__image_disabled{
+    background-image: url(/src/images/disabled.svg);
+    background-repeat: no-repeat;
+ }
+
+ &__image_basket{
+    background-image: url(/src/images/basket.svg);
+    background-repeat: no-repeat;
+ }
+}

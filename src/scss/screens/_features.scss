@@ -1,0 +1,19 @@
+.features{
+
+    &__info{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 116px 0;
+        row-gap: rem(88.57px);
+
+        @include tablet {
+            padding: 78px 0 81px;
+        }
+        @include mobile {
+            padding: 40px 0 34.85px;
+        }
+    }
+
+
+}
