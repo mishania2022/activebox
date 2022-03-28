@@ -1,10 +1,17 @@
 .card{
-  width: 370px;
+  flex-basis: 370px;
   height: 305.43px;
   display: flex;
   flex-direction: column;
   align-items: center;
   
+  @include tablet {
+    flex-basis: 314px;
+  }
+
+  @include mobile {
+    flex-basis: 279.84px;
+  }
 
 
   &__heading{
