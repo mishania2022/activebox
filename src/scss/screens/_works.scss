@@ -17,6 +17,15 @@
       &:hover .works__card-about {
          opacity: 1;
       }
+
+      &:active .works__card-about {
+         opacity: 1;
+         background: #B90C0C;
+      }
+
+      &:focus .works__card-about {
+         opacity: 1;
+      }
    }
 
    &__card-image {
