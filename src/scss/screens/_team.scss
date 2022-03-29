@@ -1,0 +1,112 @@
+.team {
+   
+   &__container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 114px;
+      margin-bottom: 114px;
+
+      @include tablet {
+         margin-top: 78px;
+         margin-bottom: 78px;
+      }
+
+      @include mobile {
+         flex-direction: column;
+         margin-top: 35px;
+         margin-bottom: 41px;
+      }
+   }
+
+   &__card {
+      max-width: 270px;
+      margin-right: 2px;
+
+      &:last-child {
+         margin-right: 0;
+      }
+
+      @include mobile {
+         margin: 28px auto;
+
+         &:first-child {
+            margin-top: 35px;
+         }
+
+         &:last-child {
+            margin: 28px auto 41px;
+         }
+      }
+   }
+
+   &__image {
+      margin-bottom: 30px;
+
+      @include tablet {
+         margin-bottom: 25px;
+      }
+   }
+
+   &__name {
+      font-weight: 700;
+      text-transform: capitalize;
+      color: map-get($colors, black);
+      margin-bottom: 6px;
+
+      @include tablet {
+         font-size: 18px;
+         line-height: 21px;
+         margin-bottom: 4px;
+      }
+   }
+
+   &__post {
+      margin-bottom: 18px;
+      font-size: 18px;
+      line-height: 21px;
+      text-transform: uppercase;
+      color: map-get($colors, red);
+
+      @include tablet {
+         font-size: 14px;
+         line-height: 16px;
+         margin-bottom: 23px;
+      }
+   }
+
+   &__about {
+      font-size: 18px;
+      line-height: 21px;
+      color: map-get($colors, gray);
+      margin-bottom: 38px;
+
+      @include tablet {
+         font-size: 14px;
+         line-height: 16px;
+         margin-bottom: 39px;
+      }
+   }
+
+   &__socials {
+      display: flex;
+   }
+
+   &__socials-link {
+      margin-right: 6px;
+      
+      &:last-child {
+         margin-right: 0;
+      }
+
+      &:hover, &:focus, &:active {
+         opacity: .6;
+      }
+   }
+
+   &__socials-icon {
+
+      @include tablet {
+         width: 33px;
+      }
+   }
+}
