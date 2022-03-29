@@ -1,0 +1,22 @@
+.socials {
+    display: flex;
+
+    &__link {
+       margin-right: 6px;
+       
+       &:last-child {
+          margin-right: 0;
+       }
+ 
+       &:hover, &:focus, &:active {
+          opacity: .6;
+       }
+    }
+ 
+    &__icon {
+ 
+       @include tablet {
+          width: 33px;
+       }
+    }
+ }

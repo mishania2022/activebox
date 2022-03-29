@@ -87,26 +87,7 @@
       }
    }
 
-   &__socials {
-      display: flex;
-   }
+   
 
-   &__socials-link {
-      margin-right: 6px;
-      
-      &:last-child {
-         margin-right: 0;
-      }
-
-      &:hover, &:focus, &:active {
-         opacity: .6;
-      }
-   }
-
-   &__socials-icon {
-
-      @include tablet {
-         width: 33px;
-      }
-   }
+  
 }
