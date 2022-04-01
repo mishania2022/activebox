@@ -44,8 +44,13 @@
     width: 134px;
     border-bottom: 3px solid transparent;
 
-    &:hover {
+    &:hover, &:focus {
       border-bottom: 3px solid #babbc5;
+    }
+
+    &:active {
+       color: #E71414;
+       border-bottom: 3px solid #E71414;
     }
 
     @include tablet {
