@@ -1,6 +1,6 @@
 .swiper {
    max-width: 1500px;
-   margin-bottom: 40px;
+   margin-bottom: 20px;
    
    &-slide {
     display: flex;
@@ -49,29 +49,29 @@
    
    &__quote-text {
       font-family: 'Cardo';
-      font-size: 36px;
-      line-height: 49px;
+      font-size: rem(36px);
+      line-height: rem(49px);
       text-transform: capitalize;
       color: #FFFFFF;
       margin-bottom: 30px;
 
       @include tablet {
-         font-size: 24px;
-         line-height: 32px;
+         font-size: rem(24px);
+         line-height: rem(32px);
       }
    }
 
    &__quote-author {
       font-family: 'Raleway';
       font-weight: 700;
-      font-size: 13px;
-      line-height: 15px;
+      font-size: rem(13px);
+      line-height: rem(15px);
       text-transform: uppercase;
       color: #FFFFFF;
 
       @include tablet{
-         font-size: 12px;
-         line-height: 14px;
+         font-size: rem(12px);
+         line-height: rem(14px);
       }
 
       @include mobile {
