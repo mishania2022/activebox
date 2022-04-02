@@ -34,14 +34,10 @@
    }
 
    &__image  {
-      max-width: 741px;
-
-      @include tablet {
-         max-width: 502px;
-      }
+      max-width: 50%;
+      min-width: 320px;
 
       @include mobile {
-         max-width: 320px;
          margin-bottom: 20px;
       }
    }
