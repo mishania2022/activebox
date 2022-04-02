@@ -1,3 +1,7 @@
+html {
+   scroll-behavior: smooth;
+}
+
 body{
     font-size: $base-font-size;
     font-family: Raleway,sans-serif;
@@ -6,6 +10,7 @@ body{
 .container{
   max-width: 1170px;
   margin: 0 auto;
+  padding: 0 5px;
 
   @include tablet {
     max-width: 984px;
