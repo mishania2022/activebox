@@ -42,10 +42,15 @@
     text-decoration: none;
     padding: 42px 0 38px;
     width: 134px;
-    border-bottom: 10px solid transparent;
+    border-bottom: 3px solid transparent;
 
-    &:hover {
+    &:hover, &:focus {
       border-bottom: 3px solid #babbc5;
+    }
+
+    &:active {
+       color: #E71414;
+       border-bottom: 3px solid #E71414;
     }
 
     @include tablet {

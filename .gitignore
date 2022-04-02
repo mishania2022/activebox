@@ -1,3 +1,7 @@
-node_modules
+node_modules/*
+!node_modules/swiper 
+node_modules/swiper/*
+!node_modules/swiper/swiper-bundle.css
+
 .parcel-cache
 dist
