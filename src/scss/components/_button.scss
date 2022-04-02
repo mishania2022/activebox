@@ -1,0 +1,28 @@
+.button{
+    display: block;
+    padding: 24px 91px;     
+    background: #FF4343;
+    color: white;
+    font-weight: 900;
+    font-size: rem(24px);
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    @include tablet {
+        font-size: rem(18px);
+        padding: 27px 63px;
+       }
+     
+       @include mobile {
+        padding:  16px 47px;
+       }
+  
+    &:hover, &:focus {
+      background: #E71414;
+    }
+  
+    &:active {
+     background: #FF4343;
+     box-shadow: 4px 4px 30px #FF4343;
+    }
+}

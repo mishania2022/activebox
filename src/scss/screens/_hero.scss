@@ -18,7 +18,7 @@
     }
 
     @include mobile {
-      padding: 106px 0 52px;
+      padding: 300px 0 52px;
     }
   }
 
@@ -33,6 +33,7 @@
       margin-bottom: 61.86px;
       font-size: rem(48px);
       line-height: rem(56px);
+      margin-top: 70px;
     }
 
     @include mobile {
@@ -64,17 +65,6 @@
   }
 
   &__button{    
-    margin: 0 auto;    
-    
-    @include tablet {
-      height: 80px;
-      left: 355px;
-    }
-
-    @include mobile {
-      width: 280px;
-      height: 60px;
-    }
-
+    margin: 0 auto;   
   }
 }

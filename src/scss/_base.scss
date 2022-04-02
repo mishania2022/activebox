@@ -45,41 +45,11 @@ h5{
 h6{
   font-weight: 700;
   font-size: rem(13px);
-  line-height: 15px;
-}
-
-button{
-  display: block;     
-  height: 77.57575988769531px;
-  width: 369px;
-  background: #FF4343;
-  color: white;
-  font-weight: 900;
-  font-size: 24px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-
-  &:hover, &:focus {
-      background: #E71414;
-  }
-
-  &:active {
-   background: #FF4343;
-   box-shadow: 4px 4px 30px #FF4343;
-  }
-
-  @include tablet {
-   font-size: 18px;
-   width: 314px;
-  }
-
-  @include mobile {
-   width: 280px;
-  }
+  line-height: rem(15px);
 }
 
 a {
-   text-decoration: none;
-   color: inherit;
-   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
